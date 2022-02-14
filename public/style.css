@@ -23,15 +23,26 @@ body{
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 15px 0;
-    background: black;
-    /* font-family: 'montserrat',sans-serif; */
+    padding: 30px 0;
+    /* background: black; */
     font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: red;
 }
 .navbar .logo a{
     color: white;
     font-size: 35px;
     font-weight: 600;
+}
+.navbar .logo a span{
+    color: red;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: black;
 }
 .navbar .menu li{
     list-style: none;
@@ -42,10 +53,16 @@ body{
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
 }
-span{
+.navbar .menu li a:hover{
     color: red;
 }
+.navbar.sticky .menu li a:hover{
+    color: black;
+}
+
+
 
 /* Accueil style */
 .home{
@@ -77,8 +94,8 @@ span{
 }
 .home .home-content .sm a{
     display: inline-flex;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     justify-content: center;
     align-items: center;
     color: red;
@@ -87,7 +104,7 @@ span{
     border-radius: 50%;
 }
 .home .home-content .sm a:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     background: red;
     color: white;
 }
