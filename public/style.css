@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.959);
+  background: '';  
 }
 .max-width{
     max-width: 1300px;
@@ -45,4 +45,49 @@ body{
 }
 span{
     color: red;
+}
+
+/* Accueil style */
+.home{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.959);
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 20px;
+}
+.home .home-content .text-2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 28px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+   color: red;
+   font-weight: 500;
+}
+.home .home-content .sm a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 20px;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+.home .home-content .sm a:hover{
+    transform: scale(1.2);
+    background: red;
+    color: white;
 }
