@@ -261,11 +261,16 @@ img.maf-concept{
     }
 }
 
+@media (max-width: 1160px){
+    .middle{
+        display: none;
+    }
+}
+
 @media (max-width: 1104){
     .qsj .qsj-content .left img{
         width: 300px;
         height: 300px;
-        
     }
 }
 
@@ -286,9 +291,7 @@ img.maf-concept{
     .menu-btn i.active:before{
         content: "\f00d";
     }
-    .middle{
-        display: none;
-    }
+    
     .navbar .menu{
         position: fixed;
         height: 100vh;
@@ -354,3 +357,7 @@ img.maf-concept{
         font-size: 16px;
     }
 }
+
+
+
+
