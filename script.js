@@ -1,9 +1,17 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY >20){
-            $('.navbar').addClass("sticky")
+            $('.navbar').addClass("sticky");
+            $('.middle').addClass("sticky");
         }else{
-            $('.navbar').removeClass("sticky")
+            $('.navbar').removeClass("sticky");
+            $('.middle').removeClass("sticky");
         }
+    });
+
+    //toggle menu-navbar
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active")
     })
 })

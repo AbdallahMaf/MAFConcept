@@ -14,6 +14,7 @@ body{
     padding: 0 80px;
     margin: auto;
 }
+
 /* Navbar style*/
 .navbar .max-width{
     display: flex;
@@ -61,6 +62,13 @@ body{
 .navbar.sticky .menu li a:hover{
     color: black;
 }
+/* Menu button style*/
+.menu-btn{
+    color: white;  
+    font-size: 23px; 
+    cursor: pointer;
+    display: none; 
+}
 
 
 
@@ -107,4 +115,157 @@ body{
     transform: scale(1.1);
     background: red;
     color: white;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+}
+.middle.sticky{
+    display: none;
+}
+.card{
+    cursor: pointer;
+    width: 380px;
+    height: 480px;
+    border-radius: 33px;
+}
+img.maf-concept{
+    width:100%;
+}
+.front, .back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+    border-radius: 33px;
+}
+.front img{
+    height: 100%;
+}
+.back img{
+    height: 100%;
+}
+.photo{
+    width: 100%;
+}
+.front{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back{
+    background: #000;
+    transform: perspective(600px) rotateY(180deg);
+}
+.back-content{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: red;
+    text-align: center;
+    transform: rotateY(-50%);
+}
+.card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+    transform: perspective(600px) rotateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 1104){
+    .home .max-width{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 991px){
+    .max-width{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 947px){
+    .max-width{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999; 
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .middle{
+        display: none;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .home .home-content .text-2{
+        font-size: 45px;
+    }
+    .home .home-content .text-3{
+        font-size: 23px;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 690px){
+    .max-width{
+        padding: 0 23px;
+    }
+    .home .home-content .text-2{
+        font-size: 35px;
+    }
+    .home .home-content .text-3{
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px){
+    .home .home-content .text-2{
+        font-size: 28px;
+    }
+    .home .home-content .text-3{
+        font-size: 16px;
+    }
 }
