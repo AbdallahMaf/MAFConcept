@@ -15,7 +15,7 @@ body{
     margin: auto;
 }
 
-/* Navbar style*/
+/*------------------------------------Navbar style------------------------------------*/
 .navbar .max-width{
     display: flex;
     align-items: center;
@@ -23,6 +23,7 @@ body{
 }
 .navbar{
     position: fixed;
+    z-index: 999;
     width: 100%;
     padding: 30px 0;
     /* background: black; */
@@ -71,8 +72,7 @@ body{
 }
 
 
-
-/* Accueil style */
+/*------------------------------------ Accueil style ------------------------------------*/
 .home{
     display: flex;
     background-color: rgba(0, 0, 0, 0.959);
@@ -175,6 +175,74 @@ img.maf-concept{
     transform: perspective(600px) rotateY(0);
 }
 
+/* ------------------------------------ Qui suis-je style ------------------------------------ */
+.qsj{
+    font-family: 'Poppins', sans-serif;
+}
+.qsj .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 70px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: red;
+}
+.qsj .qsj-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.qsj .qsj-content .left{
+    width: 45%;
+}
+.qsj .qsj-content .left img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 33px;
+}
+.qsj .qsj-content .right{
+    width: 55%;
+}
+.qsj .qsj-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.qsj .qsj-content .right .text span{
+    color: red;
+}
+.qsj .qsj-content .right p{
+    text-align: justify;
+}
+.qsj .qsj-content .right a{
+    display: inline-block;
+    background: red;
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 33px;
+    border: 2px solid red;
+    transition: all 0.3 ease;
+} 
+.qsj .qsj-content .right a:hover{
+    color: red;
+    background: none;
+    transition: all 0.3 ease;
+}
+
+/* ------------------------------------ Competences style ------------------------------------ */
+
+/* ------------------------------------ Projets style ------------------------------------ */
+
+/* ------------------------------------ Autres style ------------------------------------ */
+
+/* ------------------------------------ Contact style ------------------------------------ */
 
 
 
@@ -186,16 +254,18 @@ img.maf-concept{
 
 
 
-
-
-
-
-
-
-/* Responsive */
-@media (max-width: 1104){
+/*------------------------------------ Responsive ------------------------------------*/
+@media (max-width: 1300){
     .home .max-width{
         margin-left: 0px;
+    }
+}
+
+@media (max-width: 1104){
+    .qsj .qsj-content .left img{
+        width: 300px;
+        height: 300px;
+        
     }
 }
 
@@ -248,6 +318,21 @@ img.maf-concept{
         font-size: 23px;
         margin: 5px 0;
     }
+    .max-width{
+        max-width: 800px;
+    }
+    .qsj .qsj-content .column{
+        width: 100%;
+    }
+    .qsj .qsj-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .qsj .qsj-content .right p{
+        flex: 100%;
+    }
+
 }
 
 @media (max-width: 690px){
