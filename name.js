@@ -1,5 +1,5 @@
 let i = 0;
-let text3 = "Web & Mobile Full-Stack Junior";
+let text3 = "Web & Mobile Full-Stack";
 function progress(){
     if(i<text3.length){
         document.querySelector("#text3").innerHTML += text3.charAt(i);

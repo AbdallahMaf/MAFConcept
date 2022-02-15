@@ -176,10 +176,10 @@ img.maf-concept{
 }
 
 /* ------------------------------------ Qui suis-je style ------------------------------------ */
-.qsj{
+.qsj, .projets{
     font-family: 'Poppins', sans-serif;
 }
-.qsj .title{
+section .title{
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -189,7 +189,8 @@ img.maf-concept{
     font-family: 'Ubuntu', sans-serif;
     color: red;
 }
-.qsj .qsj-content{
+.qsj .qsj-content,
+.projets .projets-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -239,7 +240,43 @@ img.maf-concept{
 /* ------------------------------------ Competences style ------------------------------------ */
 
 /* ------------------------------------ Projets style ------------------------------------ */
-
+.projets{
+    background:#111;
+    color: white;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+.projets .projets-content .cards{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.projets .projets-content .cards:hover{
+    background: red;
+}
+.projets .projets-content .cards .box{
+    transition: all 0.3s ease;
+}
+.projets .projets-content .cards:hover .box{
+    transform: scale(1.05);
+}
+.projets .projets-content .cards i{
+    font-size: 50px;
+    color: red;
+    transition: color 0.3s ease;
+}
+.projets .projets-content .cards:hover i{ 
+    color: white;
+}
+.projets .projets-content .cards .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 /* ------------------------------------ Autres style ------------------------------------ */
 
 /* ------------------------------------ Contact style ------------------------------------ */
@@ -291,7 +328,7 @@ img.maf-concept{
     .menu-btn i.active:before{
         content: "\f00d";
     }
-    
+
     .navbar .menu{
         position: fixed;
         height: 100vh;
@@ -332,8 +369,12 @@ img.maf-concept{
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .qsj .qsj-content .right p{
+    .qsj .qsj-content .right {
         flex: 100%;
+    }
+    .projets .projets-content .cards{
+        width: (50% - 10px);
+        margin-bottom: 20px;
     }
 
 }
@@ -347,6 +388,9 @@ img.maf-concept{
     }
     .home .home-content .text-3{
         font-size: 20px;
+    }
+    .projets .projets-content .cards{
+        width: 100%
     }
 }
 @media (max-width: 500px){
