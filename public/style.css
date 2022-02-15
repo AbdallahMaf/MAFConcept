@@ -219,7 +219,8 @@ section .title{
 .qsj .qsj-content .right p{
     text-align: justify;
 }
-.qsj .qsj-content .right a{
+.qsj .qsj-content .right a,
+.projets .projets-content .cards .box a{
     display: inline-block;
     background: red;
     color:white;
@@ -237,7 +238,20 @@ section .title{
     transition: all 0.3 ease;
 }
 
+
 /* ------------------------------------ Competences style ------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------------------ Projets style ------------------------------------ */
 .projets{
@@ -250,13 +264,16 @@ section .title{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 15px;
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .projets .projets-content .cards:hover{
     background: red;
+    box-shadow: 8px 8px 8px black;
+    transform: rotate(-3deg);
+    transition: all 0.3s ease;
 }
 .projets .projets-content .cards .box{
     transition: all 0.3s ease;
@@ -272,6 +289,12 @@ section .title{
 .projets .projets-content .cards:hover i{ 
     color: white;
 }
+.projets .projets-content .cards:hover a{
+    color: red;
+    background: white;
+    border: none;
+    transition: all 0.3 ease;
+}
 .projets .projets-content .cards .text{
     font-size: 25px;
     font-weight: 500;
@@ -279,7 +302,20 @@ section .title{
 }
 /* ------------------------------------ Autres style ------------------------------------ */
 
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------------ Contact style ------------------------------------ */
+
+
 
 
 
@@ -376,7 +412,6 @@ section .title{
         width: (50% - 10px);
         margin-bottom: 20px;
     }
-
 }
 
 @media (max-width: 690px){
