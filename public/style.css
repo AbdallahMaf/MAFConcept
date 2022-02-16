@@ -31,7 +31,7 @@ body{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 15px 0;
+    padding: 10px 0;
     background: red;
 }
 .navbar .logo a{
@@ -61,7 +61,7 @@ body{
     color: red;
 }
 .navbar.sticky .menu li a:hover{
-    color: black;
+    color: white;
 }
 /* Menu button style*/
 .menu-btn{
