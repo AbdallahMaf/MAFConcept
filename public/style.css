@@ -245,8 +245,24 @@ section .title{
 /* ------------------------------------ Teams style ------------------------------------ */
 .teams .carousel .cards{
     background: #222;
-    border-radius: 6px;
+    border-radius: 33px;
     padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .cards:hover{
+    background: red;
+}
+.teams .carousel .cards .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teams .carousel .cards .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
 .teams .carousel .cards img{
     height: 150px;
@@ -254,8 +270,32 @@ section .title{
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid red;
+    transition: all 0.3s ease;
 }
-
+.teams .carousel .cards:hover img{
+    border-color: white;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid red!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: red!important;
+}
 
 
 
