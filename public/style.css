@@ -71,7 +71,6 @@ body{
     display: none; 
 }
 
-
 /*------------------------------------ Accueil style ------------------------------------*/
 .home{
     display: flex;
@@ -179,7 +178,7 @@ img.maf-concept{
 section{
     padding: 100px 0;
 }
-.qsj, .projets, .teams{
+.qsj, .projets, .competences{
     font-family: 'Poppins', sans-serif;
 }
 section .title{
@@ -242,29 +241,29 @@ section .title{
 }
 
 
-/* ------------------------------------ Teams style ------------------------------------ */
-.teams .carousel .cards{
+/* ------------------------------------ Competencess style ------------------------------------ */
+.competences .carousel .cards{
     background: #222;
     border-radius: 33px;
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .cards:hover{
+.competences .carousel .cards:hover{
     background: red;
 }
-.teams .carousel .cards .box{
+.competences .carousel .cards .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.teams .carousel .cards .text{
+.competences .carousel .cards .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .cards img{
+.competences .carousel .cards img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -272,7 +271,7 @@ section .title{
     border: 5px solid red;
     transition: all 0.3s ease;
 }
-.teams .carousel .cards:hover img{
+.competences .carousel .cards:hover img{
     border-color: white;
 }
 .owl-dots{
@@ -297,21 +296,11 @@ section .title{
     background: red!important;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------ Projets style ------------------------------------ */
-.projets, .teams{
+.projets, .competences{
     background:#111;
     color: white;
-    padding: 20px 0 70px 0;
+    padding: 20px 0 100px 0;
     
 }
 .projets .projets-content .cards{
