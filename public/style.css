@@ -176,7 +176,10 @@ img.maf-concept{
 }
 
 /* ------------------------------------ Qui suis-je style ------------------------------------ */
-.qsj, .projets{
+section{
+    padding: 100px 0;
+}
+.qsj, .projets, .teams{
     font-family: 'Poppins', sans-serif;
 }
 section .title{
@@ -239,8 +242,19 @@ section .title{
 }
 
 
-/* ------------------------------------ Competences style ------------------------------------ */
-
+/* ------------------------------------ Teams style ------------------------------------ */
+.teams .carousel .cards{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+}
+.teams .carousel .cards img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid red;
+}
 
 
 
@@ -254,18 +268,18 @@ section .title{
 
 
 /* ------------------------------------ Projets style ------------------------------------ */
-.projets{
+.projets, .teams{
     background:#111;
     color: white;
-    padding: 20px 0;
-    margin-top: 80px;
+    padding: 20px 0 70px 0;
+    
 }
 .projets .projets-content .cards{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
     border-radius: 15px;
-    padding: 20px 25px;
+    padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -303,6 +317,13 @@ section .title{
 /* ------------------------------------ Autres style ------------------------------------ */
 
 
+
+
+
+.qsj .qsj-content .right p span{
+    color: red;
+    font-weight: bold;
+}
 
 
 
