@@ -178,7 +178,7 @@ img.maf-concept{
 section{
     padding: 100px 0;
 }
-.qsj, .projets, .competences{
+.qsj, .projets, .competences, .contact{
     font-family: 'Poppins', sans-serif;
 }
 section .title{
@@ -192,7 +192,8 @@ section .title{
     color: red;
 }
 .qsj .qsj-content,
-.projets .projets-content{
+.projets .projets-content,
+.contact .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -344,31 +345,44 @@ section .title{
     margin: 10px 0 7px 0;
 }
 /* ------------------------------------ Autres style ------------------------------------ */
-
-
-
-
-
 .qsj .qsj-content .right p span{
     color: red;
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
 /* ------------------------------------ Contact style ------------------------------------ */
-
-
-
-
-
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: red;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
 
 
 
