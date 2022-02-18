@@ -6,6 +6,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
   background: '';  
 }
@@ -51,6 +54,7 @@ body{
     display: inline-block;
 }
 .navbar .menu li a{
+    display: block;
     color: white;
     font-size: 18px;
     font-weight: 500;
