@@ -178,7 +178,7 @@ img.maf-concept{
 section{
     padding: 100px 0;
 }
-.qsj, .projets, .competences, .contact{
+.qsj, .projets, .competences, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 section .title{
@@ -437,6 +437,22 @@ section .title{
     color: red;
     background: none;
 }
+
+
+/*------------------------------------ Footer style ------------------------------------*/
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: white;
+}
+footer span {
+    color: red;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
 
 
 
