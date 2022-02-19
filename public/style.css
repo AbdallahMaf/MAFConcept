@@ -449,6 +449,9 @@ footer{
     padding: 20px 23px;
     color: white;
 }
+footer p{
+    text-align: right;
+}
 footer span {
     color: red;
     text-decoration: none;
