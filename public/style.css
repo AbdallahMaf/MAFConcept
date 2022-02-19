@@ -9,9 +9,7 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-  background: '';  
-}
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -35,7 +33,7 @@ body{
 }
 .navbar.sticky{
     padding: 10px 0;
-    background: red;
+    background: #111;
 }
 .navbar .logo a{
     color: white;
@@ -46,9 +44,9 @@ body{
     color: red;
     transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span{
+/* .navbar.sticky .logo a span{
     color: black;
-}
+} */
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -65,7 +63,7 @@ body{
     color: red;
 }
 .navbar.sticky .menu li a:hover{
-    color: white;
+    color: red;
 }
 /* Menu button style*/
 .menu-btn{
@@ -103,6 +101,7 @@ body{
    color: red;
    font-weight: 500;
 }
+
 .home .home-content .sm a{
     display: inline-flex;
     width: 45px;
@@ -207,7 +206,7 @@ section .title{
     width: 45%;
 }
 .qsj .qsj-content .left img{
-    width: 400px;
+    width: 350px;
     height: auto;
     object-fit: cover;
     border-radius: 33px;
@@ -227,7 +226,8 @@ section .title{
     text-align: justify;
 }
 .qsj .qsj-content .right a,
-.projets .projets-content .cards .box a{
+.projets .projets-content .cards .box a,
+.contact .contact-content .button a{
     display: inline-block;
     background: red;
     color:white;
@@ -383,6 +383,7 @@ section .title{
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+    color: red;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
@@ -390,15 +391,25 @@ section .title{
 .contact .right form .fields{
     display: flex;
 }
+.contact .right{
+    background: rgb(196, 193, 193);
+    padding: 25px;
+    border-radius: 33px;
+}
+.contact .right .text{
+    color: white;
+}
 .contact .right form .field,
 .contact .right form .fields .field{
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
+    
 }
 .contact .right form .textarea{
-    height: 80px;
+    height: 150px;
     width: 100%;
+  
 }
 .contact .right form .name{
     margin-right: 10px;
@@ -417,6 +428,12 @@ section .title{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
 }
+.contact .right form .field input:hover,
+.contact .right form .textarea textarea:hover{
+    border: 1px solid red;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+}
 .contact .right form .textarea textarea{
     padding-top: 10px;
     resize: none;
@@ -430,6 +447,7 @@ section .title{
     height: 100%;
     border: 2px solid red;
     background: red;
+    font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 15px;
     font-weight: 500;
@@ -439,8 +457,26 @@ section .title{
 }
 .contact .right form .button button:hover{
     color: red;
-    background: none;
+    background: white;
 }
+.contact .contact-content .sm a{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 20px;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+.contact .contact-content .sm a:hover{
+    transform: scale(1.1);
+    background: red;
+    color: white;
+}
+
 
 
 /*------------------------------------ Footer style ------------------------------------*/
@@ -448,9 +484,6 @@ footer{
     background: #111;
     padding: 20px 23px;
     color: white;
-}
-footer p{
-    text-align: right;
 }
 footer span {
     color: red;
