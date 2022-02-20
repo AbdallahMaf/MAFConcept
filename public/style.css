@@ -237,12 +237,13 @@ section .title{
     margin-top: 20px;
     border-radius: 33px;
     border: 2px solid red;
-    transition: all 0.3 ease;
+    transition: all 0.5 ease;
 } 
 .qsj .qsj-content .right a:hover{
-    color: red;
-    background: none;
-    transition: all 0.3 ease;
+    color: white;
+    transform: scale(1.1) rotate(3deg);
+    box-shadow: 3px 3px 3px #222;
+    transition: all 0.5 ease;
 }
 
 
@@ -254,9 +255,9 @@ section .title{
     text-align: center;
     transition: all 0.3s ease;
 }
-.competences .carousel .cards:hover{
+/* .competences .carousel .cards:hover{
     background: red;
-}
+} */
 .competences .carousel .cards .box{
     display: flex;
     flex-direction: column;
@@ -456,8 +457,11 @@ section .title{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
+    background: #111;
     color: red;
-    background: white;
+    transform: scale(1.05);
+    box-shadow: 3px 3px 3px red;
+    transition: all 0.5 ease;
 }
 .contact .contact-content .sm a{
     display: inline-flex;
