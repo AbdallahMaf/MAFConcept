@@ -32,8 +32,8 @@ html{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 10px 0;
-    background: #111;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.959);
 }
 .navbar .logo a{
     color: white;
@@ -392,12 +392,12 @@ section .title{
     display: flex;
 }
 .contact .right{
-    background: rgb(196, 193, 193);
+    background: #111;
     padding: 25px;
     border-radius: 33px;
 }
 .contact .right .text{
-    color: white;
+    color: red;
 }
 .contact .right form .field,
 .contact .right form .fields .field{
@@ -422,7 +422,7 @@ section .title{
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
-    border-radius: 6px;
+    border-radius: 25px;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
@@ -431,7 +431,7 @@ section .title{
 .contact .right form .field input:hover,
 .contact .right form .textarea textarea:hover{
     border: 1px solid red;
-    border-radius: 6px;
+    border-radius: 25px;
     font-family: 'Poppins', sans-serif;
 }
 .contact .right form .textarea textarea{
