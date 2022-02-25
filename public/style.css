@@ -255,9 +255,6 @@ section .title{
     text-align: center;
     transition: all 0.3s ease;
 }
-/* .competences .carousel .cards:hover{
-    background: red;
-} */
 .competences .carousel .cards .box{
     display: flex;
     flex-direction: column;
@@ -272,7 +269,7 @@ section .title{
 .competences .carousel .cards img{
     height: 150px;
     width: 150px;
-    object-fit: cover;
+    /* object-fit: cover; */
     border-radius: 50%;
     border: 5px solid red;
     transition: all 0.3s ease;
