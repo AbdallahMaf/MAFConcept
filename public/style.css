@@ -536,6 +536,7 @@ footer span a:hover{
     }
     .menu-btn i.active:before{
         content: "\f00d";
+        color: #000;
     }
 
     .navbar .menu{
@@ -544,7 +545,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background:linear-gradient(to right, black, red);
+        background: white;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -559,6 +560,7 @@ footer span a:hover{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+        color: #111;
     }
     .home .home-content .text-2{
         font-size: 45px;
