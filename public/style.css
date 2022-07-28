@@ -296,6 +296,7 @@ section .title {
     background: #222;
     border-radius: 33px;
     padding: 25px 35px;
+    margin-top: 40px;
     text-align: center;
     transition: all 0.3s ease;
 }
