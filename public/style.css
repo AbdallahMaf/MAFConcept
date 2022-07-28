@@ -1,28 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@500&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
-.max-width{
+.max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
 
 /*------------------------------------Navbar style------------------------------------*/
-.navbar .max-width{
+.navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar{
+
+.navbar {
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -31,27 +33,32 @@ html{
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
-.navbar.sticky{
+
+.navbar.sticky {
     padding: 15px 0;
     background-color: rgba(0, 0, 0, 0.959);
 }
-.navbar .logo a{
+
+.navbar .logo a {
     color: white;
     font-size: 35px;
     font-weight: 600;
 }
-.navbar .logo a span{
+
+.navbar .logo a span {
     color: red;
     transition: all 0.3s ease;
 }
+
 /* .navbar.sticky .logo a span{
     color: black;
 } */
-.navbar .menu li{
+.navbar .menu li {
     list-style: none;
     display: inline-block;
 }
-.navbar .menu li a{
+
+.navbar .menu li a {
     display: block;
     color: white;
     font-size: 18px;
@@ -59,22 +66,25 @@ html{
     margin-left: 25px;
     transition: color 0.3s ease;
 }
-.navbar .menu li a:hover{
+
+.navbar .menu li a:hover {
     color: red;
 }
-.navbar.sticky .menu li a:hover{
+
+.navbar.sticky .menu li a:hover {
     color: red;
 }
+
 /* Menu button style*/
-.menu-btn{
-    color: white;  
-    font-size: 23px; 
+.menu-btn {
+    color: white;
+    font-size: 23px;
     cursor: pointer;
-    display: none; 
+    display: none;
 }
 
 /*------------------------------------ Accueil style ------------------------------------*/
-.home{
+.home {
     display: flex;
     background-color: rgba(0, 0, 0, 0.959);
     height: 100vh;
@@ -82,27 +92,32 @@ html{
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
-.home .max-width{
+
+.home .max-width {
     margin: auto 0 auto 40px;
 }
-.home .home-content .text-1{
+
+.home .home-content .text-1 {
     font-size: 20px;
 }
-.home .home-content .text-2{
+
+.home .home-content .text-2 {
     font-size: 50px;
     font-weight: 600;
     margin-left: -3px;
 }
-.home .home-content .text-3{
+
+.home .home-content .text-3 {
     font-size: 28px;
     margin: 5px 0;
 }
-.home .home-content .text-3 span{
-   color: red;
-   font-weight: 500;
+
+.home .home-content .text-3 span {
+    color: red;
+    font-weight: 500;
 }
 
-.home .home-content .sm a{
+.home .home-content .sm a {
     display: inline-flex;
     width: 45px;
     height: 45px;
@@ -113,31 +128,37 @@ html{
     transition: 0.4s;
     border-radius: 50%;
 }
-.home .home-content .sm a:hover{
+
+.home .home-content .sm a:hover {
     transform: scale(1.1);
     background: red;
     color: white;
 }
 
-.middle{
+.middle {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(50%, -50%);
 }
-.middle.sticky{
+
+.middle.sticky {
     display: none;
 }
-.card{
+
+.card {
     cursor: pointer;
     width: 380px;
     height: 480px;
     border-radius: 33px;
 }
-img.maf-concept{
-    width:100%;
+
+img.maf-concept {
+    width: 100%;
 }
-.front, .back{
+
+.front,
+.back {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -146,23 +167,29 @@ img.maf-concept{
     transition: transform .6s linear;
     border-radius: 33px;
 }
-.front img{
+
+.front img {
     height: 100%;
 }
-.back img{
+
+.back img {
     height: 100%;
 }
-.photo{
+
+.photo {
     width: 100%;
 }
-.front{
+
+.front {
     transform: perspective(600px) rotateY(0deg);
 }
-.back{
+
+.back {
     background: #000;
     transform: perspective(600px) rotateY(180deg);
 }
-.back-content{
+
+.back-content {
     position: absolute;
     top: 45%;
     left: 10%;
@@ -170,21 +197,29 @@ img.maf-concept{
     text-align: center;
     transform: rotateY(-50%);
 }
-.card:hover > .front{
+
+.card:hover>.front {
     transform: perspective(600px) rotateY(-180deg);
 }
-.card:hover > .back{
+
+.card:hover>.back {
     transform: perspective(600px) rotateY(0);
 }
 
 /* ------------------------------------ Qui suis-je style ------------------------------------ */
-section{
+section {
     padding: 100px 0;
 }
-.qsj, .projets, .competences, .contact, footer{
+
+.qsj,
+.projets,
+.competences,
+.contact,
+footer {
     font-family: 'Poppins', sans-serif;
 }
-section .title{
+
+section .title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -194,43 +229,51 @@ section .title{
     font-family: 'Ubuntu', sans-serif;
     color: red;
 }
+
 .qsj .qsj-content,
 .projets .projets-content,
-.contact .contact-content{
+.contact .contact-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-.qsj .qsj-content .left{
+
+.qsj .qsj-content .left {
     width: 45%;
 }
-.qsj .qsj-content .left img{
+
+.qsj .qsj-content .left img {
     width: 350px;
     height: auto;
     object-fit: cover;
     border-radius: 33px;
 }
-.qsj .qsj-content .right{
+
+.qsj .qsj-content .right {
     width: 55%;
 }
-.qsj .qsj-content .right .text{
+
+.qsj .qsj-content .right .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.qsj .qsj-content .right .text span{
+
+.qsj .qsj-content .right .text span {
     color: red;
 }
-.qsj .qsj-content .right p{
+
+.qsj .qsj-content .right p {
     text-align: justify;
 }
+
 .qsj .qsj-content .right a,
 .projets .projets-content .cards .box a,
-.contact .contact-content .button a{
+.contact .contact-content .button a {
     display: inline-block;
     background: red;
-    color:white;
+    color: white;
     font-size: 15px;
     font-weight: 500;
     padding: 10px 30px;
@@ -238,8 +281,9 @@ section .title{
     border-radius: 33px;
     border: 2px solid red;
     transition: all 0.5 ease;
-} 
-.qsj .qsj-content .right a:hover{
+}
+
+.qsj .qsj-content .right a:hover {
     color: white;
     transform: scale(1.05);
     box-shadow: 3px 3px 3px #222;
@@ -248,25 +292,28 @@ section .title{
 
 
 /* ------------------------------------ Competencess style ------------------------------------ */
-.competences .carousel .cards{
+.competences .carousel .cards {
     background: #222;
     border-radius: 33px;
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
 }
-.competences .carousel .cards .box{
+
+.competences .carousel .cards .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.competences .carousel .cards .text{
+
+.competences .carousel .cards .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.competences .carousel .cards img{
+
+.competences .carousel .cards img {
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -274,39 +321,46 @@ section .title{
     border: 5px solid red;
     transition: all 0.3s ease;
 }
-.competences .carousel .cards:hover img{
+
+.competences .carousel .cards:hover img {
     border-color: white;
 }
-.owl-dots{
+
+.owl-dots {
     text-align: center;
     margin-top: 20px;
 }
-.owl-dot{
+
+.owl-dot {
     height: 13px;
     width: 13px;
     margin: 0 5px;
-    outline: none!important;
+    outline: none !important;
     border-radius: 50%;
-    border: 2px solid red!important;
+    border: 2px solid red !important;
     transition: all 0.3s ease;
 }
-.owl-dot.active{
+
+.owl-dot.active {
     width: 35px;
     border-radius: 14px;
 }
+
 .owl-dot.active,
-.owl-dot:hover{
-    background: red!important;
+.owl-dot:hover {
+    background: red !important;
 }
 
 /* ------------------------------------ Projets style ------------------------------------ */
-.projets, .competences{
-    background:#111;
+.projets,
+.competences {
+    background: #111;
     color: white;
     padding: 20px 0 100px 0;
-    
+
 }
-.projets .projets-content .cards{
+
+.projets .projets-content .cards {
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -315,108 +369,132 @@ section .title{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.projets .projets-content .cards:hover{
+
+.projets .projets-content .cards:hover {
     background: red;
     box-shadow: 8px 8px 8px black;
     transform: rotate(-3deg);
     transition: all 0.3s ease;
 }
-.projets .projets-content .cards .box{
+
+.projets .projets-content .cards .box {
     transition: all 0.3s ease;
 }
-.projets .projets-content .cards:hover .box{
+
+.projets .projets-content .cards:hover .box {
     transform: scale(1.05);
 }
-.projets .projets-content .cards i{
+
+.projets .projets-content .cards i {
     font-size: 50px;
     color: red;
     transition: color 0.3s ease;
 }
-.projets .projets-content .cards:hover i{ 
+
+.projets .projets-content .cards:hover i {
     color: white;
 }
-.projets .projets-content .cards:hover a{
+
+.projets .projets-content .cards:hover a {
     color: red;
     background: white;
     border: none;
     transition: all 0.3 ease;
 }
-.projets .projets-content .cards .text{
+
+.projets .projets-content .cards .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
 /* ------------------------------------ Autres style ------------------------------------ */
-.qsj .qsj-content .right p span{
+.qsj .qsj-content .right p span {
     color: red;
     font-weight: bold;
 }
 
 /* ------------------------------------ Contact style ------------------------------------ */
-.contact .contact-content .column{
+.contact .contact-content .column {
     width: calc(50% - 30px);
 }
-.contact .contact-content .text{
+
+.contact .contact-content .text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.contact .contact-content .left p{
+
+.contact .contact-content .left p {
     text-align: justify;
 }
-.contact .contact-content .left .icons{
+
+.contact .contact-content .left .icons {
     margin: 10px 0;
 }
-.contact .contact-content .row{
+
+.contact .contact-content .row {
     display: flex;
     height: 65px;
     align-items: center;
 }
-.contact .contact-content .row .info{
+
+.contact .contact-content .row .info {
     margin-left: 30px;
 }
-.contact .contact-content .row i{
+
+.contact .contact-content .row i {
     font-size: 25px;
     color: red;
 }
-.contact .contact-content .info .head{
+
+.contact .contact-content .info .head {
     font-weight: 500;
     color: red;
 }
-.contact .contact-content .info .sub-title{
+
+.contact .contact-content .info .sub-title {
     color: #333;
 }
-.contact .right form .fields{
+
+.contact .right form .fields {
     display: flex;
 }
-.contact .right{
+
+.contact .right {
     background: #111;
     padding: 25px;
     border-radius: 33px;
 }
-.contact .right .text{
+
+.contact .right .text {
     color: red;
 }
+
 .contact .right form .field,
-.contact .right form .fields .field{
+.contact .right form .fields .field {
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
-    
+
 }
-.contact .right form .textarea{
+
+.contact .right form .textarea {
     height: 150px;
     width: 100%;
-  
+
 }
-.contact .right form .name{
+
+.contact .right form .name {
     margin-right: 10px;
 }
-.contact .right form .email{
+
+.contact .right form .email {
     margin-left: 10px;
 }
+
 .contact .right form .field input,
-.contact .right form .textarea textarea{
+.contact .right form .textarea textarea {
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
@@ -426,21 +504,25 @@ section .title{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
 }
+
 .contact .right form .field input:hover,
-.contact .right form .textarea textarea:hover{
+.contact .right form .textarea textarea:hover {
     border: 1px solid red;
     border-radius: 25px;
     font-family: 'Poppins', sans-serif;
 }
-.contact .right form .textarea textarea{
+
+.contact .right form .textarea textarea {
     padding-top: 10px;
     resize: none;
 }
-.contact .right form .button{
+
+.contact .right form .button {
     height: 47px;
     width: 170px;
 }
-.contact .right form .button button{
+
+.contact .right form .button button {
     width: 100%;
     height: 100%;
     border: 2px solid red;
@@ -453,14 +535,16 @@ section .title{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.contact .right form .button button:hover{
+
+.contact .right form .button button:hover {
     background: #111;
     color: red;
     transform: scale(1.05);
     box-shadow: 1px 2px 2px red;
     transition: all 0.5 ease;
 }
-.contact .contact-content .sm a{
+
+.contact .contact-content .sm a {
     display: inline-flex;
     width: 45px;
     height: 45px;
@@ -472,7 +556,8 @@ section .title{
     transition: 0.4s;
     border-radius: 50%;
 }
-.contact .contact-content .sm a:hover{
+
+.contact .contact-content .sm a:hover {
     transform: scale(1.1);
     background: red;
     color: white;
@@ -481,16 +566,18 @@ section .title{
 
 
 /*------------------------------------ Footer style ------------------------------------*/
-footer{
+footer {
     background: #111;
     padding: 20px 23px;
     color: white;
 }
+
 footer span {
     color: red;
     text-decoration: none;
 }
-footer span a:hover{
+
+footer span a:hover {
     text-decoration: underline;
 }
 
@@ -498,121 +585,135 @@ footer span a:hover{
 
 
 /*------------------------------------ Responsive ------------------------------------*/
-@media (max-width: 1300){
-    .home .max-width{
+@media (max-width: 1300) {
+    .home .max-width {
         margin-left: 0px;
     }
 }
 
-@media (max-width: 1160px){
-    .middle{
+@media (max-width: 1160px) {
+    .middle {
         display: none;
     }
 }
 
-@media (max-width: 1104){
-    .qsj .qsj-content .left img{
+@media (max-width: 1104) {
+    .qsj .qsj-content .left img {
         width: 300px;
         height: 300px;
     }
 }
 
-@media (max-width: 991px){
-    .max-width{
+@media (max-width: 991px) {
+    .max-width {
         padding: 0 50px;
     }
 }
 
-@media (max-width: 947px){
-    .max-width{
+@media (max-width: 947px) {
+    .max-width {
         padding: 0 50px;
     }
-    .menu-btn{
+
+    .menu-btn {
         display: block;
-        z-index: 999; 
-    }
-    .menu-btn i.active:before{
-        content: "\f00d";
-        color: #000;
+        z-index: 999;
     }
 
-    .navbar .menu{
+    .menu-btn i.active:before {
+        content: "\f00d";
+        color: rgb(255, 255, 255);
+    }
+
+    .navbar .menu {
         position: fixed;
         height: 100vh;
         width: 100%;
         left: -100%;
         top: 0;
-        background: white;
+        background-color: rgba(0, 0, 0, 0.959);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
     }
-    .navbar .menu.active{
+
+    .navbar .menu.active {
         left: 0;
     }
-    .navbar .menu li{
+
+    .navbar .menu li {
         display: block;
     }
-    .navbar .menu li a{
+
+    .navbar .menu li a {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
-        color: #111;
+        color: rgb(255, 255, 255);
     }
-    .home .home-content .text-2{
+
+    .home .home-content .text-2 {
         font-size: 45px;
     }
-    .home .home-content .text-3{
+
+    .home .home-content .text-3 {
         font-size: 23px;
         margin: 5px 0;
     }
-    .max-width{
+
+    .max-width {
         max-width: 800px;
     }
-    .qsj .qsj-content .column{
+
+    .qsj .qsj-content .column {
         width: 100%;
     }
-    .qsj .qsj-content .left{
+
+    .qsj .qsj-content .left {
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
+
     .qsj .qsj-content .right {
         flex: 100%;
     }
-    .projets .projets-content .cards{
+
+    .projets .projets-content .cards {
         width: (50% - 10px);
         margin-bottom: 20px;
     }
-    .contact .contact-content .column{
+
+    .contact .contact-content .column {
         width: 100%;
         margin-bottom: 35px;
     }
 }
 
-@media (max-width: 690px){
-    .max-width{
+@media (max-width: 690px) {
+    .max-width {
         padding: 0 23px;
     }
-    .home .home-content .text-2{
+
+    .home .home-content .text-2 {
         font-size: 35px;
     }
-    .home .home-content .text-3{
+
+    .home .home-content .text-3 {
         font-size: 20px;
     }
-    .projets .projets-content .cards{
+
+    .projets .projets-content .cards {
         width: 100%
     }
 }
-@media (max-width: 500px){
-    .home .home-content .text-2{
+
+@media (max-width: 500px) {
+    .home .home-content .text-2 {
         font-size: 28px;
     }
-    .home .home-content .text-3{
+
+    .home .home-content .text-3 {
         font-size: 16px;
     }
 }
-
-
-
-
