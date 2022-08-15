@@ -14,7 +14,7 @@ function progress(){
 progress();
 
 let j = 0;
-let text4 = "Informatique";
+let text4 = "</Informatique>";
 function progress2(){
     if(j<text4.length) {
         document.querySelector("#text4").innerHTML += text4.charAt(j);
