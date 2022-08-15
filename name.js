@@ -23,3 +23,21 @@ function progress2(){
     }
 }
 progress2();
+
+let k = 0;
+let text5 = "Web & Mobile Full-Stack Junior et Integrateur Systeme d'Information";
+function progress3(){
+    if(i<text5.length) {
+        document.querySelector("#text5").innerHTML += text5.charAt(k);
+        k++;
+
+        setTimeout(progress3, 300);
+        if(k==23){
+            document.querySelector("#text5").innerHTML += "<br>";
+        }
+    }
+}
+progress3();
+
+
+
