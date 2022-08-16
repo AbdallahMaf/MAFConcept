@@ -1,3 +1,19 @@
+const text1 = document.querySelector('.text-1');
+const text2 = document.querySelector('.text-2');
+const textThird = document.querySelector('.text-3');
+const sm = document.querySelector('.sm');
+
+// window.addEventListener('load', () => {
+//     const TL = gsap.timeline({paused: true});
+
+//     TL.
+//     staggerFrom(text1, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.9)
+//     staggerFrom(text2, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
+//     staggerFrom(textThird, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
+//     staggerFrom(sm, 1, { right: -200, opacity: 0, ease: "power2.out"}, 0.3);
+//     TL.play();
+// })
+
 let i = 0;
 let text3 = "Web & Mobile Full-Stack";
 function progress(){
