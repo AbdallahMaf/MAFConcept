@@ -326,6 +326,123 @@ section .title {
     transition: all 0.5 ease;
 }
 
+.qsj .contact form .fields {
+    display: flex;
+}
+
+.qsj .contact {
+    /* background: #111;
+    padding: 25px;
+    border-radius: 33px; */
+
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 40px;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.qsj .contact .text {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.qsj .contact form .field,
+.qsj .contact form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.qsj .contact form .textarea {
+    height: 150px;
+    width: 100%;
+
+}
+
+.qsj .contact form .name {
+    margin-right: 10px;
+}
+
+.qsj .contact form .email {
+    margin-left: 10px;
+}
+
+.qsj .contact form .field input,
+.qsj .contact form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.qsj .contact form .field input:hover,
+.qsj .contact form .textarea textarea:hover {
+    border: 1px solid red;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.qsj .contact form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.qsj .contact form .button {
+    height: 47px;
+    width: 170px;
+}
+
+.qsj .contact form .button button {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    background: red;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 33px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.qsj .contact form .button button:hover {
+    background: #111;
+    color: red;
+    transform: scale(1.05);
+    box-shadow: 1px 2px 2px red;
+    transition: all 0.5 ease;
+}
+
+.qsj .qsj-content .sm a {
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 20px;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.qsj .qsj-content .sm a:hover {
+    transform: scale(1.1);
+    background: red;
+    color: white;
+}
+
 
 /* ------------------------------------ Competencess style ------------------------------------ */
 .competences .carousel .cards {
