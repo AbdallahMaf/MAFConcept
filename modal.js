@@ -12,12 +12,13 @@ document.querySelectorAll(".contact-link").forEach(item =>{
     })
 })
 
-document.addEventListener("keydown", function(event){
-    if(event.key === "Alt"){
+document.querySelectorAll(".bg").forEach(item =>{
+    item.addEventListener("click", event =>{
+    
        bg[0].style.display = "none";
     
         document.querySelectorAll(".contact").forEach(contactCV =>{
             contactCV.style.top = "-50%";
         })
-    }
+    })
 })
