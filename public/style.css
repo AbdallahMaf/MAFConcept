@@ -11,6 +11,16 @@ html {
     scroll-behavior: smooth;
 }
 
+.bg {
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    opacity: .9;
+    z-index: 2;
+    display: none;
+}
+
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
@@ -348,7 +358,10 @@ section .title {
 
 .qsj .contact .text {
     color: red;
-    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
 }
 
 .qsj .contact form .field,
@@ -417,14 +430,13 @@ section .title {
 }
 
 .qsj .contact form .button button:hover {
-    background: #111;
-    color: red;
-    transform: scale(1.05);
-    box-shadow: 1px 2px 2px red;
+    color: white;
+    transform: scale(1.03);
+    box-shadow: 1px 2px 2px black;
     transition: all 0.5 ease;
 }
 
-.qsj .qsj-content .sm a {
+.qsj .sm a {
     display: inline-flex;
     width: 45px;
     height: 45px;
@@ -437,7 +449,7 @@ section .title {
     border-radius: 50%;
 }
 
-.qsj .qsj-content .sm a:hover {
+.qsj .sm a:hover {
     transform: scale(1.1);
     background: red;
     color: white;
