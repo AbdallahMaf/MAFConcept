@@ -847,7 +847,8 @@ footer span a:hover {
 
     .contact {
         width: 90%;
-        margin-top: 150%;
+
+        /* visibility: hidden; */
     }
 
     .projets .projets-content .cards {
@@ -887,4 +888,6 @@ footer span a:hover {
     .home .home-content .text-3 {
         font-size: 16px;
     }
+
+
 }

@@ -19,6 +19,8 @@ document.querySelectorAll(".bg").forEach(item =>{
     
         document.querySelectorAll(".contact").forEach(contactCV =>{
             contactCV.style.top = "-100%";
+        
+
         })
     })
 })
