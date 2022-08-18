@@ -845,6 +845,11 @@ footer span a:hover {
         flex: 100%;
     }
 
+    .contact {
+        width: 90%;
+        margin-top: 150%;
+    }
+
     .projets .projets-content .cards {
         width: (50% - 10px);
         margin-bottom: 20px;

@@ -8,7 +8,7 @@ document.querySelectorAll(".contact-link").forEach(item =>{
         contactCV = document.getElementById( id );
         bg[0].style.display = "block";
 
-        contactCV.style.top = "160%"
+        contactCV.style.top = "155%"
     })
 })
 
