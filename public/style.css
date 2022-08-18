@@ -336,27 +336,27 @@ section .title {
     transition: all 0.5 ease;
 }
 
-.qsj .contact form .fields {
+.qsj .contactqjs form .fields {
     display: flex;
 }
 
-.qsj .contact {
+.qsj .contactqjs {
     /* background: #111;
     padding: 25px;
     border-radius: 33px; */
-
     position: absolute;
     z-index: 2;
     background-color: #fff;
     max-width: 600px;
     border-radius: 10px;
     padding: 40px;
+    visibility: hidden;
     left: 50%;
-    top: -50%;
+    top: 160%;
     transform: translate(-50%, -50%);
 }
 
-.qsj .contact .text {
+.qsj .contactqjs .text {
     color: red;
     font-size: 16px;
     font-weight: 600;
@@ -364,30 +364,30 @@ section .title {
 
 }
 
-.qsj .contact form .field,
-.qsj .contact form .fields .field {
+.qsj .contactqjs form .field,
+.qsj .contactqjs form .fields .field {
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
 
 }
 
-.qsj .contact form .textarea {
+.qsj .contactqjs form .textarea {
     height: 150px;
     width: 100%;
 
 }
 
-.qsj .contact form .name {
+.qsj .contactqjs form .name {
     margin-right: 10px;
 }
 
-.qsj .contact form .email {
+.qsj .contactqjs form .email {
     margin-left: 10px;
 }
 
-.qsj .contact form .field input,
-.qsj .contact form .textarea textarea {
+.qsj .contactqjs form .field input,
+.qsj .contactqjs form .textarea textarea {
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
@@ -398,24 +398,24 @@ section .title {
     font-family: 'Poppins', sans-serif;
 }
 
-.qsj .contact form .field input:hover,
-.qsj .contact form .textarea textarea:hover {
+.qsj .contactqjs form .field input:hover,
+.qsj .contactqjs form .textarea textarea:hover {
     border: 1px solid red;
     border-radius: 25px;
     font-family: 'Poppins', sans-serif;
 }
 
-.qsj .contact form .textarea textarea {
+.qsj .contactqjs form .textarea textarea {
     padding-top: 10px;
     resize: none;
 }
 
-.qsj .contact form .button {
+.qsj .contactqjs form .button {
     height: 47px;
     width: 170px;
 }
 
-.qsj .contact form .button button {
+.qsj .contactqjs form .button button {
     width: 100%;
     height: 100%;
     border: 2px solid red;
@@ -429,7 +429,7 @@ section .title {
     transition: all 0.3s ease;
 }
 
-.qsj .contact form .button button:hover {
+.qsj .contactqjs form .button button:hover {
     color: white;
     transform: scale(1.03);
     box-shadow: 1px 2px 2px black;
@@ -845,9 +845,18 @@ footer span a:hover {
         flex: 100%;
     }
 
-    .contact {
+    .contactqjs {
         width: 90%;
-
+        position: absolute;
+        z-index: 2;
+        background-color: #fff;
+        max-width: 600px;
+        border-radius: 10px;
+        padding: 40px;
+        visibility: hidden;
+        left: 50%;
+        margin-top: 140%;
+        transform: translate(-50%, -50%);
         /* visibility: hidden; */
     }
 

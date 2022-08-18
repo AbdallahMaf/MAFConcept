@@ -8,7 +8,8 @@ document.querySelectorAll(".contact-link").forEach(item =>{
         contactCV = document.getElementById( id );
         bg[0].style.display = "block";
 
-        contactCV.style.top = "155%"
+        //contactCV.style.top = "155%"
+        contactCV.style.visibility = "visible"
     })
 })
 
@@ -17,8 +18,9 @@ document.querySelectorAll(".bg").forEach(item =>{
     
        bg[0].style.display = "none";
     
-        document.querySelectorAll(".contact").forEach(contactCV =>{
-            contactCV.style.top = "-100%";
+        document.querySelectorAll(".contactqjs").forEach(contactCV =>{
+            //contactCV.style.top = "-100%";
+            contactCV.style.visibility = "hidden"
         
 
         })
