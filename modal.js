@@ -1,3 +1,4 @@
+// Box Modal 
 bg= document.getElementsByClassName("bg");
 
 document.querySelectorAll(".contact-link").forEach(item =>{
