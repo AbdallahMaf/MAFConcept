@@ -70,9 +70,19 @@ html {
     transition: all 0.3s ease;
 }
 
-/* .navbar.sticky .logo a span{
-    color: black;
-} */
+.navbar.sticky .logo a {
+    font-size: 27px;
+    color: red;
+    transition: .8s ease-in-out;
+
+}
+
+.navbar.sticky .logo a span {
+    font-size: 27px;
+    color: white;
+    transition: .8s ease-in-out;
+}
+
 .navbar .menu li {
     list-style: none;
     display: inline-block;
