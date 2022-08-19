@@ -11,6 +11,16 @@ html {
     scroll-behavior: smooth;
 }
 
+/* body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+} */
+
+#particles-js {
+    background-color: rgba(0, 0, 0, 0.959);
+}
+
 .bg {
     position: fixed;
     background-color: #000;
