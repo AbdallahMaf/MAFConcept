@@ -63,6 +63,7 @@ html {
     color: white;
     font-size: 35px;
     font-weight: 600;
+    transition: all 0.8s ease;
 }
 
 .navbar .logo a span {
@@ -73,14 +74,14 @@ html {
 .navbar.sticky .logo a {
     font-size: 27px;
     color: red;
-    transition: .8s ease-in-out;
+    transition: all .8s ease-in-out;
 
 }
 
 .navbar.sticky .logo a span {
     font-size: 27px;
     color: white;
-    transition: .8s ease-in-out;
+    transition: all .8s ease-in-out;
 }
 
 .navbar .menu li {
