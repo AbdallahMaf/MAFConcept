@@ -227,11 +227,13 @@ img.maf-concept {
 
 .front {
     transform: perspective(600px) rotateY(0deg);
+    transition: 3s;
 }
 
 .back {
     background: #000;
     transform: perspective(600px) rotateY(180deg);
+    transition: 3s;
 }
 
 .back-content {
@@ -245,10 +247,12 @@ img.maf-concept {
 
 .card:hover>.front {
     transform: perspective(600px) rotateY(-180deg);
+    transition: 3s;
 }
 
 .card:hover>.back {
     transform: perspective(600px) rotateY(0);
+    transition: 3s;
 }
 
 /* ------------------------------------ Qui suis-je style ------------------------------------ */
