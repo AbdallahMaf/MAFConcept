@@ -1,7 +1,7 @@
-const text1 = document.querySelector('.text-1');
-const text2 = document.querySelector('.text-2');
-const textThird = document.querySelector('.text-3');
-const sm = document.querySelector('.sm');
+// const text1 = document.querySelector('.text-1');
+// const text2 = document.querySelector('.text-2');
+// const textThird = document.querySelector('.text-3');
+// const sm = document.querySelector('.sm');
 
 // window.addEventListener('load', () => {
 //     const TL = gsap.timeline({paused: true});

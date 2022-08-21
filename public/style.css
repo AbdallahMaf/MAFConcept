@@ -565,7 +565,7 @@ section .title {
 .projets .projets-content .cards:hover {
     background: red;
     box-shadow: 8px 8px 8px black;
-    transform: rotate(-3deg);
+    transform: rotate(-1deg);
     transition: all 0.3s ease;
 }
 
@@ -598,6 +598,22 @@ section .title {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+
+.projets .projetModalDesc {
+    /* background: #111;
+    padding: 25px;
+    border-radius: 33px; */
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 40px;
+    visibility: hidden;
+    left: 50%;
+    top: 360%;
+    transform: translate(-50%, -50%);
 }
 
 /* ------------------------------------ Autres style ------------------------------------ */
@@ -881,6 +897,21 @@ footer span a:hover {
         visibility: hidden;
         left: 50%;
         margin-top: 140%;
+        transform: translate(-50%, -50%);
+        /* visibility: hidden; */
+    }
+
+    .projetModalDesc {
+        width: 90%;
+        position: absolute;
+        z-index: 2;
+        background-color: #fff;
+        max-width: 600px;
+        border-radius: 10px;
+        padding: 40px;
+        visibility: hidden;
+        left: 50%;
+        margin-top: 160%;
         transform: translate(-50%, -50%);
         /* visibility: hidden; */
     }
