@@ -606,13 +606,13 @@ section .title {
     border-radius: 33px; */
     position: absolute;
     z-index: 2;
-    background-color: #fff;
-    max-width: 600px;
+    background-color: transparent;
+    max-width: 100%;
     border-radius: 10px;
     padding: 40px;
     visibility: hidden;
     left: 50%;
-    top: 360%;
+    top: 345%;
     transform: translate(-50%, -50%);
 }
 
