@@ -616,6 +616,87 @@ section .title {
     transform: translate(-50%, -50%);
 }
 
+.cont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+}
+
+.cont .box {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin: 60px 0;
+    border-radius: 10px;
+    background: transparent;
+    transform-style: preserve-3d;
+}
+
+.cont .box:hover {
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.959);
+}
+
+.cont .box .img-Box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cont .box .img-Box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cont .box .content-Box {
+    position: relative;
+    top: 50%;
+    left: 50px;
+    border-radius: 0 50px 0 50px;
+    background: white;
+    transform: translateZ(0px) scaleY(0);
+    padding: 40px 25px;
+    transform-origin: top;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    text-align: center;
+}
+
+.cont .box:hover .content-Box {
+    transform: translateZ(80px) scaleY(1);
+}
+
+.cont .box .content-Box .text {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: red;
+}
+
+.cont .box .content-Box p {
+    color: rgb(0, 0, 0);
+}
+
+.cont .box .sm a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: red;
+    font-size: 27px;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
 /* ------------------------------------ Autres style ------------------------------------ */
 .qsj .qsj-content .right p span {
     color: red;
