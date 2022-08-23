@@ -992,7 +992,7 @@ footer span a:hover {
         padding: 40px;
         visibility: hidden;
         left: 50%;
-        margin-top: 160%;
+        margin-top: 180%;
         transform: translate(-50%, -50%);
         /* visibility: hidden; */
     }
