@@ -279,6 +279,11 @@ footer {
     font-family: 'Poppins', sans-serif;
 }
 
+.qsj,
+.contact {
+    background: url("/public/devbg2.jpg");
+}
+
 section .title {
     position: relative;
     text-align: center;
@@ -315,7 +320,7 @@ section .title {
 }
 
 .qsj .qsj-content .left img {
-    width: 350px;
+    width: 380px;
     height: auto;
     object-fit: cover;
     border-radius: 33px;
