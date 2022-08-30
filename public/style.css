@@ -371,9 +371,12 @@ section .title {
 }
 
 .qsj .qsj-content .right a:hover {
-    color: white;
+    background: transparent;
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
     transform: scale(1.05);
-    box-shadow: 3px 3px 3px #222;
+    border: 3px solid red;
     transition: all 0.5 ease;
 }
 
