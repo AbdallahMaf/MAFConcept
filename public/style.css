@@ -393,7 +393,7 @@ section .title {
     font-weight: 500;
     transform: scale(1.05);
     border: 3px solid red;
-    transition: all 0.5 ease;
+    transition: color 0.5s ease-out;
 }
 
 .qsj .contactqjs form .fields {
@@ -620,7 +620,7 @@ section .title {
 }
 
 .projets .projets-content .cards:hover {
-    background: url('/public/images/imgprojet2.webp');
+    background: url('imgprojet2.webp');
     box-shadow: 8px 8px 8px black;
     transform: rotate(-1deg);
     transition: all 0.3s ease;
@@ -637,11 +637,14 @@ section .title {
 .projets .projets-content .cards i {
     font-size: 50px;
     color: red;
+    transform: scale(1.09);
     transition: color 0.3s ease;
 }
 
 .projets .projets-content .cards:hover i {
-    color: rgb(0, 0, 0);
+    color: white;
+    transform: scale(0.9);
+    transition: all 0.9s ease-in;
 }
 
 .projets .projets-content .cards:hover a {
