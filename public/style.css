@@ -249,11 +249,27 @@ img.maf-concept {
 
 .back-content {
     position: absolute;
-    top: 45%;
-    left: 10%;
-    color: red;
     text-align: center;
-    transform: rotateY(-50%);
+    top: 40%;
+    left: 4%;
+}
+
+.back h2 {
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: 600;
+    color: red;
+    letter-spacing: 2px;
+}
+
+.back span {
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+}
+
+.back .sm {
+    margin: 10px 0;
 }
 
 .card:hover>.front {
