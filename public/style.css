@@ -620,7 +620,7 @@ section .title {
 }
 
 .projets .projets-content .cards:hover {
-    background: red;
+    background: url('/public/images/imgprojet2.webp');
     box-shadow: 8px 8px 8px black;
     transform: rotate(-1deg);
     transition: all 0.3s ease;
@@ -641,7 +641,7 @@ section .title {
 }
 
 .projets .projets-content .cards:hover i {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .projets .projets-content .cards:hover a {
