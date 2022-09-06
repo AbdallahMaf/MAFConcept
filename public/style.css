@@ -72,7 +72,7 @@ html {
 }
 
 .navbar.sticky .logo a {
-    font-size: 27px;
+    font-size: 24px;
     color: red;
     transition: all .8s ease-in-out;
 
@@ -1130,6 +1130,13 @@ footer span a:hover {
 
     .projets .projets-content .cards {
         width: 100%
+    }
+
+    .navbar .logo a {
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+        transition: all 0.8s ease;
     }
 }
 
