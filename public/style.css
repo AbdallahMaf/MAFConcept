@@ -350,6 +350,7 @@ footer {
     height: auto;
     object-fit: cover;
     border-radius: 33px;
+    filter: drop-shadow(18px 8px red);
 }
 
 .qsj .qsj-content .right {
