@@ -79,7 +79,7 @@ html {
 }
 
 .navbar.sticky .logo a span {
-    font-size: 27px;
+    font-size: 24px;
     color: white;
     transition: all .8s ease-in-out;
 }
