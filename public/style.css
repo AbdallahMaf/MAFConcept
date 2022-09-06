@@ -1138,6 +1138,10 @@ footer span a:hover {
         font-weight: 600;
         transition: all 0.8s ease;
     }
+
+    footer {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 500px) {
