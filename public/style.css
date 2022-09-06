@@ -300,12 +300,11 @@ footer {
     background: url("devbg2.jpg");
 }
 
-section .title {
+.qsj .title {
     position: relative;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-top: 70px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
     color: red;
@@ -517,6 +516,17 @@ section .title {
 
 
 /* ------------------------------------ Competencess style ------------------------------------ */
+.competences .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 70px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: red;
+}
+
 .competences .title::before {
     content: "";
     position: absolute;
@@ -595,6 +605,17 @@ section .title {
     color: white;
     padding: 20px 0 100px 0;
 
+}
+
+.projets .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 70px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: red;
 }
 
 .projets .title::before {
@@ -764,6 +785,16 @@ section .title {
 }
 
 /* ------------------------------------ Contact style ------------------------------------ */
+.contact .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: red;
+}
+
 .contact .title::before {
     content: "";
     position: absolute;
