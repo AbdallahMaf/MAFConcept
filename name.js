@@ -43,7 +43,7 @@ progress2();
 let k = 0;
 let text5 = "Web & Mobile Full-Stack Junior et Integrateur Systeme d'Information";
 function progress3(){
-    if(i<text5.length) {
+    if(k<text5.length) {
         document.querySelector("#text5").innerHTML += text5.charAt(k);
         k++;
 
@@ -54,6 +54,21 @@ function progress3(){
     }
 }
 progress3();
+
+let l = 0;
+let text6 = "sportif...";
+function progress4(){
+    if(l<text6.length) {
+        document.querySelector("#text6").innerHTML += text6.charAt(l);
+        l++;
+
+        setTimeout(progress4, 300);
+        if(l==23){
+            document.querySelector("#text6").innerHTML += "<br>";
+        }
+    }
+}
+progress4();
 
 
 

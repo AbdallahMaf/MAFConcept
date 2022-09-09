@@ -169,7 +169,8 @@ html {
 }
 
 .home .home-content .text-3 span {
-    color: red;
+    background: red;
+    color: white;
     font-weight: 500;
 }
 
@@ -364,7 +365,8 @@ footer {
 }
 
 .qsj .qsj-content .right .text span {
-    color: red;
+    background: red;
+    color: white;
 }
 
 .qsj .qsj-content .right p {
