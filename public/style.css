@@ -721,6 +721,7 @@ footer {
     padding: 50px 0;
     border-radius: 10px;
     transform-style: preserve-3d;
+    background: transparent;
 }
 
 .cont .box {
@@ -734,6 +735,7 @@ footer {
 }
 
 .cont .box:hover {
+    background: transparent;
     box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.959);
 }
 
@@ -744,6 +746,19 @@ footer {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    animation: rotate 4s infinite;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0.9);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
 }
 
 .cont .box .img-Box img {

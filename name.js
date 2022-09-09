@@ -82,8 +82,8 @@ let typed = new Typed("#text3", {
 
 let typedinf = new Typed("#text4", {
     strings: ["Informatique"],
-    typeSpeed: 100,
-    backSpeed: 60,
+    typeSpeed: 90,
+    backSpeed: 300,
     loop: true
 
 });
