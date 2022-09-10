@@ -668,12 +668,12 @@ footer {
 .projets .projets-content .cards:hover i {
     color: white;
     transform: scale(0.9);
-    animation-name: rotate;
+    animation-name: rot;
     animation-duration: 0.7s;
     animation-direction: reverse;
 }
 
-@keyframes rotate {
+@keyframes rot {
     0% {
         transform: rotate(0);
     }
@@ -730,12 +730,12 @@ footer {
     height: 250px;
     margin: 60px 0;
     border-radius: 10px;
-    background: transparent;
+    background-color: #000;
+    opacity: .9;
     transform-style: preserve-3d;
 }
 
 .cont .box:hover {
-    background: transparent;
     box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.959);
 }
 
