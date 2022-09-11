@@ -40,21 +40,21 @@
 // }
 // progress2();
 
-let k = 0;
-let text5 = "Web & Mobile Full-Stack Junior et Integrateur Systeme d'Information";
-function progress3(){
-    if(k<text5.length) {
-        document.querySelector("#text5").innerHTML += text5.charAt(k);
-        k++;
+// let k = 0;
+// let text5 = "Web & Mobile Full-Stack Junior et Integrateur Systeme d'Information";
+// function progress3(){
+//     if(k<text5.length) {
+//         document.querySelector("#text5").innerHTML += text5.charAt(k);
+//         k++;
         
 
-        setTimeout(progress3, 300);
-        if(k==23){
-            document.querySelector("#text5").innerHTML += "<br>";
-        }
-    }
-}
-progress3();
+//         setTimeout(progress3, 300);
+//         if(k==23){
+//             document.querySelector("#text5").innerHTML += "<br>";
+//         }
+//     }
+// }
+// progress3();
 
 // let l = 0;
 // let text6 = "sportif...";
@@ -85,6 +85,15 @@ let typedinf = new Typed("#text4", {
     strings: ["Informatique"],
     typeSpeed: 100,
     backSpeed: 100,
+    showCursor: false,
+    loop: true
+
+});
+
+let typedqsj = new Typed("#text5", {
+    strings: ["Web et Mobile Full-Stack Junior et Integrateur Systeme d'Information"],
+    typeSpeed: 50,
+    backSpeed: 50,
     showCursor: false,
     loop: true
 
