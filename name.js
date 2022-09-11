@@ -8,7 +8,7 @@
 
 //     TL.
 //     staggerFrom(text1, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.9)
-//     staggerFrom(text2, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
+//     staggerFrom(text2, 1, {width: 0, ease: "power2.out"}, 0.3, '-=1')
 //     staggerFrom(textThird, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
 //     staggerFrom(sm, 1, { right: -200, opacity: 0, ease: "power2.out"}, 0.3);
 //     TL.play();
@@ -74,7 +74,7 @@ progress3();
 
 //A jQuery typing animation script
 let typed = new Typed("#text3", {
-    strings: ["Web et Mobile Full-Stack"],
+    strings: ["Web", "Mobile", "Full-Stack"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
