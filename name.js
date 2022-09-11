@@ -74,24 +74,27 @@ progress3();
 
 //A jQuery typing animation script
 let typed = new Typed("#text3", {
-    strings: ["Web", "Mobile", "Full-Stack"],
+    strings: ["Web", "Mobile", "Full-Stack", "Web et Mobile Full-Stack"],
     typeSpeed: 100,
     backSpeed: 100,
+    showCursor: false,
     loop: true
 });
 
 let typedinf = new Typed("#text4", {
     strings: ["Informatique"],
-    typeSpeed: 90,
-    backSpeed: 300,
+    typeSpeed: 100,
+    backSpeed: 100,
+    showCursor: false,
     loop: true
 
 });
 
 let typedKarate = new Typed("#text6", {
-    strings: ["Sportif..."],
-    typeSpeed: 260,
-    backSpeed: 260,
+    strings: ["Sportif...", "Karateka..."],
+    typeSpeed: 100,
+    backSpeed: 100,
+    showCursor: false,
     loop: true
 
 });
