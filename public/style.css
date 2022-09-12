@@ -708,7 +708,7 @@ footer {
     padding: 40px;
     visibility: hidden;
     left: 50%;
-    top: 345%;
+    top: 415%;
     transform: translate(-50%, -50%);
 }
 
@@ -1124,7 +1124,7 @@ footer span a:hover {
         padding: 40px;
         visibility: hidden;
         left: 50%;
-        margin-top: 240%;
+        margin-top: 310%;
         transform: translate(-50%, -50%);
         /* visibility: hidden; */
     }
