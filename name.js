@@ -92,7 +92,7 @@ let typedinf = new Typed("#text4", {
 
 let typedqsj = new Typed("#text5", {
     strings: ["Web et Mobile Full-Stack Junior et Integrateur Systeme d'Information"],
-    typeSpeed: 50,
+    typeSpeed: 40,
     backSpeed: 50,
     showCursor: false,
     loop: true
