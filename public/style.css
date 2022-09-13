@@ -362,6 +362,7 @@ footer {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    height: 18vh;
 }
 
 .qsj .qsj-content .right .text span {
@@ -369,7 +370,7 @@ footer {
     color: white;
 }
 
-.qsj .qsj-content .right p {
+.qsj .qsj-content .right .paragraphe p {
     text-align: justify;
 }
 
@@ -414,7 +415,7 @@ footer {
     padding: 40px;
     visibility: hidden;
     left: 50%;
-    top: 160%;
+    top: 155%;
     transform: translate(-50%, -50%);
 }
 
@@ -1015,6 +1016,10 @@ footer span a:hover {
     .middle {
         display: none;
     }
+
+    .qsj .qsj-content .right .text {
+        height: 24vh;
+    }
 }
 
 @media (max-width: 1104) {
@@ -1099,6 +1104,10 @@ footer span a:hover {
         flex: 100%;
     }
 
+    .qsj .qsj-content .right .text {
+        height: 22vh;
+    }
+
     .contactqjs {
         width: 90%;
         position: absolute;
@@ -1168,6 +1177,10 @@ footer span a:hover {
         transition: all 0.8s ease;
     }
 
+    .qsj .qsj-content .right .text {
+        height: 22vh;
+    }
+
     footer {
         font-size: 14px;
     }
@@ -1182,5 +1195,23 @@ footer span a:hover {
         font-size: 16px;
     }
 
+    .qsj .qsj-content .right .text {
+        height: 30vh;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .home .home-content .text-2 {
+        font-size: 28px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 16px;
+    }
+
+    .qsj .qsj-content .right .text {
+        height: 32vh;
+    }
 
 }
