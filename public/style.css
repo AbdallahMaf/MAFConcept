@@ -1195,7 +1195,7 @@ footer span a:hover {
     }
 
     .home .home-content .text-2 {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .home .home-content .text-3 {
@@ -1206,11 +1206,22 @@ footer span a:hover {
         width: 100%
     }
 
+    .logoAc-header {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
     .navbar .logo a {
         color: white;
         font-size: 24px;
         font-weight: 600;
         transition: all 0.8s ease;
+    }
+
+    .home .home-content .sm a {
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
     }
 
     footer {
