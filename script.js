@@ -1,3 +1,32 @@
+//Splash Screen
+let intro = document.querySelector('.intro');
+let logoAc = document.querySelector('.logoAc-header');
+let logoSpan = document.querySelectorAll('.logoAc');
+
+window.addEventListener('DOMContentLoaded', ()=>{
+
+    setTimeout(()=>{
+        logoSpan.forEach((span, idx)=>{
+            setTimeout(()=>{
+                span.classList.add('active');  
+            }, (idx + 1) *600)
+        })
+    })
+
+    setTimeout(()=>{
+        logoSpan.forEach((span, idx)=>{
+            setTimeout(()=>{
+                span.classList.remove('active');  
+                span.classList.add('fade'); 
+            }, (idx + 1) *50)      
+        })
+    }, 4800)
+
+    setTimeout(()=>{
+        intro.style.top = '-100%'
+    }, 5200)
+})
+
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY >20){

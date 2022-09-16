@@ -1,3 +1,40 @@
+//A jQuery typing animation script
+let typed = new Typed("#text3", {
+    strings: ["Web", "Mobile", "Full-Stack", "Web et Mobile Full-Stack"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    showCursor: false,
+    loop: true
+});
+
+let typedinf = new Typed("#text4", {
+    strings: ["Informatique"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    showCursor: false,
+    loop: true
+
+});
+
+let typedqsj = new Typed("#text5", {
+    strings: ["Web et Mobile Full-Stack Junior et Integrateur Systeme d'Information"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    showCursor: false,
+    loop: false
+
+});
+
+let typedKarate = new Typed("#text6", {
+    strings: ["Sportif...", "Karateka..."],
+    typeSpeed: 100,
+    backSpeed: 100,
+    showCursor: false,
+    loop: true
+
+});
+
+
 // const text1 = document.querySelector('.text-1');
 // const text2 = document.querySelector('.text-2');
 // const textThird = document.querySelector('.text-3');
@@ -70,40 +107,3 @@
 //     }
 // }
 //progress4();
-
-
-//A jQuery typing animation script
-let typed = new Typed("#text3", {
-    strings: ["Web", "Mobile", "Full-Stack", "Web et Mobile Full-Stack"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    showCursor: false,
-    loop: true
-});
-
-let typedinf = new Typed("#text4", {
-    strings: ["Informatique"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    showCursor: false,
-    loop: true
-
-});
-
-let typedqsj = new Typed("#text5", {
-    strings: ["Web et Mobile Full-Stack Junior et Integrateur Systeme d'Information"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    showCursor: false,
-    loop: false
-
-});
-
-let typedKarate = new Typed("#text6", {
-    strings: ["Sportif...", "Karateka..."],
-    typeSpeed: 100,
-    backSpeed: 100,
-    showCursor: false,
-    loop: true
-
-});
