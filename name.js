@@ -1,6 +1,6 @@
 //A jQuery typing animation script
 let typed = new Typed("#text3", {
-    strings: ["Web", "Mobile", "Full-Stack", "Web et Mobile Full-Stack"],
+    strings: ["Web", "Mobile", "Logiciel", "Full-Stack", "Web et Mobile Full-Stack"],
     typeSpeed: 100,
     backSpeed: 100,
     showCursor: false,
@@ -17,7 +17,7 @@ let typedinf = new Typed("#text4", {
 });
 
 let typedqsj = new Typed("#text5", {
-    strings: ["Web et Mobile Full-Stack Junior et Integrateur Systeme d'Information"],
+    strings: ["Web et Mobile Full-Stack et Integrateur Systeme d'Information"],
     typeSpeed: 200,
     backSpeed: 100,
     showCursor: false,
