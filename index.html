@@ -875,29 +875,29 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message</div>
-                    <form action="#">
+                    <form onsubmit="sendEmail(); reset(); return false;">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Nom" required>
+                                <input type="text" placeholder="Nom" id="lastname" required>
                             </div>
                             <div class="field email">
-                                <input type="text" placeholder="Prenom" required>
+                                <input type="text" placeholder="Prenom" id="firstname" required>
                             </div>
                         </div>
                         <div class="fields">
                             <div class="field name">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" id="email" required>
                             </div>
                             <div class="field email">
-                                <input type="tel" placeholder="Telephone" required>
+                                <input type="tel" placeholder="Telephone" id="phone" required>
                             </div>
                         </div>
 
                         <div class="field">
-                            <input type="text" placeholder="Objet" required>
+                            <input type="text" placeholder="Objet" id="Objet" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message" required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message" id="message" required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Envoyer Message</button>
@@ -945,6 +945,10 @@
         });
         VanillaTilt.init(document.querySelectorAll(".box"));
     </script>
+
+    <!-- SMTPJs -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./sendmessge.js"></script>
 
     <!-- <script>
         Array.from(document.querySelectorAll(".left")).forEach((e) => {

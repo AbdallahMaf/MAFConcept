@@ -27,6 +27,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
     }, 5200)
 })
 
+
+//Effets
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY >20){
