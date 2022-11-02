@@ -34,6 +34,15 @@ let typedKarate = new Typed("#text6", {
 
 });
 
+//Scrollreveal
+const sr = ScrollReveal({
+    distance: '0px',
+    duration: 2500,
+    reset: false
+})
+
+sr.reveal('.home-content',{delay:190, origin:'bottom'})
+sr.reveal('.qsj, .competences, .projets, .contact',{delay:200, origin:'bottom'})
 
 // const text1 = document.querySelector('.text-1');
 // const text2 = document.querySelector('.text-2');
