@@ -241,6 +241,29 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(50%, -50%);
+    animation: oscille 5s linear infinite;
+}
+
+@keyframes oscille {
+    0% {
+        position: absolute;
+        transform: translate(50%, -50%);
+    }
+
+    50% {
+        position: absolute;
+        transform: translate(52%, -52%);
+    }
+
+    75% {
+        position: absolute;
+        transform: translate(53%, -53%);
+    }
+
+    100% {
+        position: absolute;
+        transform: translate(50%, -50%);
+    }
 }
 
 .middle.sticky {
