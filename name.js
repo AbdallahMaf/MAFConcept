@@ -38,11 +38,19 @@ let typedKarate = new Typed("#text6", {
 const sr = ScrollReveal({
     distance: '0px',
     duration: 2500,
-    reset: false
+    reset: true
 })
 
 sr.reveal('.home-content',{delay:190, origin:'bottom'})
-sr.reveal('.qsj, .competences, .projets, .contact',{delay:200, origin:'bottom'})
+
+sr.reveal('.qsj .qsj-content .left',{delay:200, origin:'top', distance: '150px'})
+sr.reveal('.qsj .qsj-content .right',{delay:200, origin:'bottom', distance: '150px'})
+
+//sr.reveal('.qsj, .competences, .projets, .contact',{delay:200, origin:'bottom'})
+
+
+
+
 
 // const text1 = document.querySelector('.text-1');
 // const text2 = document.querySelector('.text-2');
