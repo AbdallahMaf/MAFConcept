@@ -359,12 +359,14 @@ section {
 .qsj,
 .projets,
 .competences,
+.autres,
 .contact,
 footer {
     font-family: 'Poppins', sans-serif;
 }
 
 .qsj,
+.autres,
 .contact {
     background: url("devbg2.jpg");
 }
@@ -403,6 +405,7 @@ footer {
 
 .qsj .qsj-content,
 .projets .projets-content,
+.autres .autres-content,
 .contact .contact-content {
     display: flex;
     flex-wrap: wrap;
@@ -443,6 +446,7 @@ footer {
 
 .qsj .qsj-content .right a,
 .projets .projets-content .cards .box a,
+.autres .autres-content .right a,
 .contact .contact-content .button a {
     display: inline-block;
     background: red;
@@ -877,7 +881,81 @@ footer {
 }
 
 /* ------------------------------------ Autres style ------------------------------------ */
-.qsj .qsj-content .right p span {
+.autres .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: red;
+}
+
+/* .autres .title::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 250px;
+    height: 3px;
+    background: red;
+    transform: translateX(-50%);
+} */
+
+.autres .title::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 50px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+.autres .autres-content .left {
+    width: 45%;
+}
+
+.autres .autres-content .left img {
+    width: 380px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 33px;
+    filter: drop-shadow(18px 2px red);
+}
+
+.autres .autres-content .right {
+    width: 55%;
+}
+
+.autres .autres-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.autres .autres-content .right .text span {
+    background: red;
+    color: white;
+}
+
+.autres .autres-content .right p {
+    text-align: justify;
+}
+
+.autres .autres-content .right a:hover {
+    background: transparent;
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+    transform: scale(1.05);
+    border: 3px solid red;
+    transition: color 0.5s ease-out;
+}
+
+
+.autres .autres-content .right p span {
     color: red;
     font-weight: bold;
 }
@@ -1090,6 +1168,11 @@ footer span a:hover {
         width: 300px;
         height: 300px;
     }
+
+    .autres .autres-content .left img {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1204,6 +1287,20 @@ footer span a:hover {
     .projets .projets-content .cards {
         width: (50% - 10px);
         margin-bottom: 20px;
+    }
+
+    .autres .autres-content .column {
+        width: 100%;
+    }
+
+    .autres .autres-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .autres .autres-content .right {
+        flex: 100%;
     }
 
     .contact .contact-content .column {
