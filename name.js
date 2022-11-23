@@ -46,7 +46,7 @@ sr.reveal('.home-content',{delay:190, origin:'bottom'})
 sr.reveal('.qsj .qsj-content .left',{delay:200, origin:'top', distance: '150px'})
 sr.reveal('.qsj .qsj-content .right',{delay:200, origin:'bottom', distance: '150px'})
 
-sr.reveal('.competences',{delay:190, origin:'bottom', reset:false})
+sr.reveal('.competences',{delay:190, origin:'bottom', distance: '50px', reset:false})
 
 
 
