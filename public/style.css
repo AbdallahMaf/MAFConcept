@@ -9,7 +9,6 @@
 
 html {
     scroll-behavior: smooth;
-    background-color: rgba(0, 0, 0, 0.959);
 }
 
 /* body {
@@ -592,6 +591,10 @@ footer {
 
 
 /* ------------------------------------ Competencess style ------------------------------------ */
+.competences {
+    background-color: rgba(0, 0, 0, 0.959);
+}
+
 .competences .title {
     position: relative;
     text-align: center;
