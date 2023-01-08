@@ -710,7 +710,7 @@ footer {
 
 .projets .projets-content .cards {
     width: calc(33% - 20px);
-    background: #222;
+    background: url('bg_gif2.gif');
     text-align: center;
     border-radius: 15px;
     margin-top: 30px;
