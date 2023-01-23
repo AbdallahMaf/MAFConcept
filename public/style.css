@@ -186,7 +186,8 @@ html {
 /*------------------------------------ Accueil style ------------------------------------*/
 .home {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.959);
+    /* background-color: rgba(0, 0, 0, 0.959); */
+    background: url('1625301673_4-phonoteka-org-p-tyomnie-oboi-na-smartfon-priroda-oboi-kras-4.jpg') center;
     height: 100vh;
     color: white;
     min-height: 500px;
